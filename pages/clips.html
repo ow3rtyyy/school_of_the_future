@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Клипы · 8 «К»</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="../index.html" aria-label="На главную страницу"><img src="../assets/logo_school.jpg" alt="Школа будущего"><span><strong>Школа будущего</strong><small>класс 8 «К»</small></span></a>
+      <nav class="nav-menu">
+        <a href="../index.html">Главная</a>
+        <a href="news.html">Новости</a>
+        <a href="histrory.html">История</a>
+        <a href="photos.html">Фотоальбом</a>
+        <a class="active" href="clips.html">Клипы</a>
+        <a href="games.html">Игры</a>
+        <a class="nav-cta" href="achievements.html">Достижения года</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Видеоархив</p>
+        <h1 class="page-title">Клипы</h1>
+        <p class="page-intro">Видео моментов класса: запуски, поездки, события и маленькие победы. Листайте видео, нажимайте на карточку — и смотрите.</p>
+      </div>
+    </section>
+    <section class="content-section">
+      <div class="container">
+        <div class="clips-grid" data-clips>
+          <article class="clip-card is-vertical">
+            <video class="clip-video" src="../img/clips/пример-вертикальный.mp4" preload="metadata" muted playsinline></video>
+            <div class="clip-overlay"><span class="clip-play" aria-hidden="true">▶</span></div>
+            <figcaption class="clip-caption">Пример вертикального клипа</figcaption>
+          </article>
+          <article class="clip-card is-wide">
+            <video class="clip-video" src="../img/clips/пример-горизонтальный.mp4" preload="metadata" muted playsinline></video>
+            <div class="clip-overlay"><span class="clip-play" aria-hidden="true">▶</span></div>
+            <figcaption class="clip-caption">Пример горизонтального клипа</figcaption>
+          </article>
+        </div>
+        <p class="clips-note">Добавьте свои видео в папку <code>img/clips/</code> (форматы mp4, webm) и укажите их в разметке страницы — и они появятся в этой галерее.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Школа будущего · 8 «К»</p>
+      <nav class="footer-links">
+        <a href="../index.html">Главная</a>
+        <a href="news.html">Новости</a>
+        <a href="achievements.html">Достижения</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="../script.js"></script>
+  <script src="../site-config.js"></script>
+  <script src="../clips.js"></script>
+</body>
+</html>
